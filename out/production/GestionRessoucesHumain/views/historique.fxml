@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="1225.0" stylesheets="@../css/Metro-UI.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+        <AnchorPane fx:id="paneTabel" layoutY="91.0" prefHeight="560.0" prefWidth="1225.0">
+         <children>
+            <AnchorPane fx:id="paneCrud" prefHeight="552.0" prefWidth="1223.0" style="-fx-background-color: white;" />
+         </children></AnchorPane>
+        <Text fill="#2b579a" layoutX="14.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Historique">
+            <font>
+                <Font name="Aldhabi" size="64.0" />
+            </font>
+        </Text>
+        <ProgressBar fx:id="bar" layoutY="84.0" prefHeight="3.0" prefWidth="1225.0" progress="0.0" />
+        <ImageView fx:id="imgLoad" fitHeight="33.0" fitWidth="40.0" layoutX="192.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" visible="false">
+            <image>
+                <Image url="@../img/301.GIF" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="222.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="11.0">
+         <image>
+            <Image url="@../img/Capture.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

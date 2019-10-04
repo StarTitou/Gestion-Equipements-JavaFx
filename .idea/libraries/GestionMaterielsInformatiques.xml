@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="GestionMaterielsInformatiques">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GestionMaterielsInformatiques/jfoenix-8.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GestionMaterielsInformatiques/ojdbc8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GestionMaterielsInformatiques/GestionMaterielsInformatiques.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="202.0" maxWidth="361.0" minHeight="202.0" minWidth="361.0" prefHeight="202.0" prefWidth="361.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Warning_Dialog">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadfe4" height="115.0" layoutY="88.0" stroke="WHITE" strokeType="INSIDE" width="361.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd28a" height="90.0" stroke="WHITE" strokeType="INSIDE" width="361.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <JFXButton fx:id="close_w" layoutX="239.0" layoutY="151.0" mnemonicParsing="false" onAction="#close_warning" prefHeight="37.0" prefWidth="108.0" style="-fx-border-radius: 20; -fx-background-color: #e7e6e6;" text="OK">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+      <Text fill="WHITE" layoutX="14.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warning" wrappingWidth="132.798828125">
+         <font>
+            <Font name="Aldhabi" size="52.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="81.0" fitWidth="91.0" layoutX="273.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/orange.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
